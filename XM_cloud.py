@@ -20,7 +20,8 @@ fecha_inicio=datetime.date(2019,1,1)
 fecha_fin=datetime.date(2025,12,31)
 
 #Generación de emisiones de CO2
-emisiones_co2=api.request_data('EmisionesCO2','RecursoComb',fecha_inicio,fecha_fin)
+emisiones_co2=api.request_data('EmisionesCO2','RecursoComb',fecha_inicio,fecha_fin) #Seleccionar dataset & métrica
+                                                                                                    # de la variable metrica
 #Generación de KWh en las plantas
 generacion_real=api.request_data('Gene','Recurso',fecha_inicio,fecha_fin)
 
