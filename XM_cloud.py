@@ -36,7 +36,7 @@ bucket_name='co2_emissions_enero'
 storage_cliente=storage.Client()
 bucket=storage_cliente.bucket(bucket_name)
 
-blob=bucket.blob('demanda.csv')
+blob=bucket.blob('establecer nombre de variable')
 blob.upload_from_string(demanda.to_csv(index=False).encode("utf-8"),content_type='text/csv')
 
 
