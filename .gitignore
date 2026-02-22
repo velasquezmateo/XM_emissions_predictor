@@ -10,7 +10,7 @@ env/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# --- Datos (Para no subir archivos pesados) ---
+# --- Data files
 *.csv
 *.xlsx
 *.json
